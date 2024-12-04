@@ -1,0 +1,122 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Header */
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav .nav-links li {
+    display: inline;
+}
+
+nav .nav-links a, .btn {
+    text-decoration: none;
+    color: white;
+    background: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav .btn:hover {
+    background: #555;
+}
+
+/* Hero Section */
+#hero {
+    background: #f4f4f4;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#hero .btn {
+    margin-top: 20px;
+    background: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+}
+
+/* Features Section */
+#features {
+    padding: 40px 20px;
+}
+
+.feature-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.feature {
+    background: #e7e7e7;
+    padding: 20px;
+    border-radius: 5px;
+    width: 30%;
+    text-align: center;
+}
+
+/* Statistics Section */
+#statistics {
+    background: #4CAF50;
+    color: white;
+    padding: 40px 20px;
+}
+
+.stats-grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.stat {
+    text-align: center;
+}
+
+/* Testimonials Section */
+#testimonials {
+    padding: 40px 20px;
+    background: #f9f9f9;
+}
+
+.testimonial {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+}
